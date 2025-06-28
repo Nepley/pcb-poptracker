@@ -1,0 +1,13 @@
+{
+    "name": "Touhou Youyoumu ~ Perfect Cherry Blossom",
+    "game_name": "Touhou PCB",
+    "package_version": "1.0",
+    "package_uid": "ap_pcb",
+    "author": "Nepley",
+    "variants": {
+      "map": {
+        "display_name": "Tracker",
+        "flags": ["ap"]
+      }
+    }
+}

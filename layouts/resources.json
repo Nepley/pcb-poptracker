@@ -1,0 +1,65 @@
+{
+    "resources_layout": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0, 0",
+        "max_width": "100%",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "lives",
+                                "bombs",
+                                "lower_difficulty",
+                                "power_points",
+                                "cherry_border"
+                            ],
+                            [
+                                "reimu_a",
+                                "reimu_b",
+                                "marisa_a",
+                                "marisa_b",
+                                "sakuya_a",
+                                "sakuya_b"
+                            ],
+                            [
+                                "reimu_a_stage_unlocked",
+                                "reimu_b_stage_unlocked",
+                                "marisa_a_stage_unlocked",
+                                "marisa_b_stage_unlocked",
+                                "sakuya_a_stage_unlocked",
+                                "sakuya_b_stage_unlocked"
+                            ],
+                            [
+                                "reimu_a_extra_stage",
+                                "reimu_b_extra_stage",
+                                "marisa_a_extra_stage",
+                                "marisa_b_extra_stage",
+                                "sakuya_a_extra_stage",
+                                "sakuya_b_extra_stage"
+                            ],
+                            [
+                                "reimu_a_phantasm_stage",
+                                "reimu_b_phantasm_stage",
+                                "marisa_a_phantasm_stage",
+                                "marisa_b_phantasm_stage",
+                                "sakuya_a_phantasm_stage",
+                                "sakuya_b_phantasm_stage"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

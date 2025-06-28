@@ -1,0 +1,1218 @@
+[
+    {
+        "name": "noShotHasDifficulty",
+        "chest_unopened_img": "/images/ui/life.png",
+        "chest_opened_img": "/images/ui/bomb.png",
+        "visibility_rules": ["$noShotHasDifficulty"],
+        "children": [
+            {
+                "name": "[Reimu] Stage 1",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 185,
+                        "y": 42,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_1, $canEasy", "reimu_b, reimu_b_stage_1, $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu] Letty Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_1, $canEasy", "reimu_b, reimu_b_stage_1, $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_1, $canNormal", "reimu_b, reimu_b_stage_1, $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu] Letty Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_1, $canNormal", "reimu_b, reimu_b_stage_1, $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_1, $canHard", "reimu_b, reimu_b_stage_1, $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu] Letty Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_1, $canHard", "reimu_b, reimu_b_stage_1, $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu] Cirno Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["reimu_a, reimu_a_stage_1, lunatic", "reimu_b, reimu_b_stage_1, lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu] Letty Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["reimu_a, reimu_a_stage_1, lunatic", "reimu_b, reimu_b_stage_1, lunatic"]
+                    },
+                    {
+                        "name": "[Reimu] Stage 1 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_1", "reimu_b, reimu_b_stage_1"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu] Stage 2",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 185,
+                        "y": 66,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu] Chen - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_2, $canEasy", "reimu_b, reimu_b_stage_2, $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu] Chen Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_2, $canEasy", "reimu_b, reimu_b_stage_2, $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu] Chen - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_2, $canNormal", "reimu_b, reimu_b_stage_2, $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu] Chen Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_2, $canNormal", "reimu_b, reimu_b_stage_2, $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu] Chen - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_2, $canHard", "reimu_b, reimu_b_stage_2, $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu] Chen Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_2, $canHard", "reimu_b, reimu_b_stage_2, $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu] Chen - MidBoss 1",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["reimu_a, reimu_a_stage_2, lunatic", "reimu_b, reimu_b_stage_2, lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu] Chen Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["reimu_a, reimu_a_stage_2, lunatic", "reimu_b, reimu_b_stage_2, lunatic"]
+                    },
+                    {
+                        "name": "[Reimu] Stage 2 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_2", "reimu_b, reimu_b_stage_2"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu] Stage 3",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 185,
+                        "y": 90,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu] Alice - Midboss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], $canEasy", "reimu_b, reimu_b_stage_3, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu] Alice Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], $canEasy", "reimu_b, reimu_b_stage_3, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu] Alice - Midboss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], $canNormal", "reimu_b, reimu_b_stage_3, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu] Alice Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], $canNormal", "reimu_b, reimu_b_stage_3, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu] Alice - Midboss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], $canHard", "reimu_b, reimu_b_stage_3, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu] Alice Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], $canHard", "reimu_b, reimu_b_stage_3, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu] Alice - Midboss 1",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], lunatic", "reimu_b, reimu_b_stage_3, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu] Alice Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], lunatic", "reimu_b, reimu_b_stage_3, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Reimu] Stage 3 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34]", "reimu_b, reimu_b_stage_3, [$canStage34]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu] Stage 4",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 185,
+                        "y": 114,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu] Lily White - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], $canEasy", "reimu_b, reimu_b_stage_4, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu] Prismriver Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], $canEasy", "reimu_b, reimu_b_stage_4, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu] Lily White - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], $canNormal", "reimu_b, reimu_b_stage_4, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu] Prismriver Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], $canNormal", "reimu_b, reimu_b_stage_4, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu] Lily White - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], $canHard", "reimu_b, reimu_b_stage_4, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu] Prismriver Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], $canHard", "reimu_b, reimu_b_stage_4, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu] Lily White - MidBoss",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], lunatic", "reimu_b, reimu_b_stage_4, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu] Prismriver Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], lunatic", "reimu_b, reimu_b_stage_4, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Reimu] Stage 4 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34]", "reimu_a, reimu_a_stage_4, [$canStage34]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu] Stage 5",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 185,
+                        "y": 138,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu] Youmu - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], $canEasy", "reimu_b, reimu_b_stage_5, [$canStage56], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu] Youmu Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], $canEasy", "reimu_b, reimu_b_stage_5, [$canStage56], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu] Youmu - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], $canNormal", "reimu_b, reimu_b_stage_5, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu] Youmu Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], $canNormal", "reimu_b, reimu_b_stage_5, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu] Youmu - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], $canHard", "reimu_b, reimu_b_stage_5, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu] Youmu Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], $canHard", "reimu_b, reimu_b_stage_5, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu] Youmu - MidBoss 1",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], lunatic", "reimu_b, reimu_b_stage_5, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu] Youmu Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], lunatic", "reimu_b, reimu_b_stage_5, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Reimu] Stage 5 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56]", "reimu_b, reimu_b_stage_5, [$canStage56]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu] Stage 6",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 185,
+                        "y": 162,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Normal][Reimu] Youmu - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_6, [$canStage56], $canNormal", "reimu_b, reimu_b_stage_6, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu] Yuyuko Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_6, [$canStage56], $canNormal", "reimu_b, reimu_b_stage_6, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu] Youmu - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_6, [$canStage56], $canHard", "reimu_b, reimu_b_stage_6, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu] Yuyuko Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_6, [$canStage56], $canHard", "reimu_b, reimu_b_stage_6, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu] Youmu - MidBoss 2",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["reimu_a, reimu_a_stage_6, [$canStage56], lunatic", "reimu_b, reimu_b_stage_6, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu] Yuyuko Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["reimu_a, reimu_a_stage_6, [$canStage56], lunatic", "reimu_b, reimu_b_stage_6, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Reimu] Stage 6 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_stage_6, [$canStage56]", "reimu_b, reimu_b_stage_6, [$canStage56]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu] Stage Extra",
+                "visibility_rules": ["$extraStage"],
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 185,
+                        "y": 188,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Reimu] Chen - MidBoss 2",
+                        "access_rules": ["reimu_a, reimu_a_extra_stage, [$canExtra]", "reimu_b, reimu_b_extra_stage, [$canExtra]"]
+                    },
+                    {
+                        "name": "[Reimu] Ran Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_extra_stage, [$canExtra]", "reimu_b, reimu_b_extra_stage, [$canExtra]"]
+                    },
+                    {
+                        "name": "[Reimu] Stage Extra Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_extra_stage, [$canExtra]", "reimu_b, reimu_b_extra_stage, [$canExtra]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu] Stage Phantasm",
+                "visibility_rules": ["$phantasmStage"],
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 185,
+                        "y": 214,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Reimu] Ran - MidBoss",
+                        "access_rules": ["reimu_a, reimu_a_phantasm_stage, [$canPhantasm]", "reimu_b, reimu_b_phantasm_stage, [$canPhantasm]"]
+                    },
+                    {
+                        "name": "[Reimu] Yukari Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_phantasm_stage, [$canPhantasm]", "reimu_b, reimu_b_phantasm_stage, [$canPhantasm]"]
+                    },
+                    {
+                        "name": "[Reimu] Stage Phantasm Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, reimu_a_phantasm_stage, [$canPhantasm]", "reimu_b, reimu_b_phantasm_stage, [$canPhantasm]"]
+                    }
+                ]
+            },
+
+            {
+                "name": "[Marisa] Stage 1",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 312,
+                        "y": 42,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_1, $canEasy", "marisa_b, marisa_b_stage_1, $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa] Letty Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_1, $canEasy", "marisa_b, marisa_b_stage_1, $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_1, $canNormal", "marisa_b, marisa_b_stage_1, $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa] Letty Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_1, $canNormal", "marisa_b, marisa_b_stage_1, $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_1, $canHard", "marisa_b, marisa_b_stage_1, $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa] Letty Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_1, $canHard", "marisa_b, marisa_b_stage_1, $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa] Cirno Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["marisa_a, marisa_a_stage_1, lunatic", "marisa_b, marisa_b_stage_1, lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa] Letty Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["marisa_a, marisa_a_stage_1, lunatic", "marisa_b, marisa_b_stage_1, lunatic"]
+                    },
+                    {
+                        "name": "[Marisa] Stage 1 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_1", "marisa_b, marisa_b_stage_1"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa] Stage 2",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 312,
+                        "y": 66,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa] Chen - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_2, $canEasy", "marisa_b, marisa_b_stage_2, $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa] Chen Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_2, $canEasy", "marisa_b, marisa_b_stage_2, $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa] Chen - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_2, $canNormal", "marisa_b, marisa_b_stage_2, $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa] Chen Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_2, $canNormal", "marisa_b, marisa_b_stage_2, $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa] Chen - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_2, $canHard", "marisa_b, marisa_b_stage_2, $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa] Chen Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_2, $canHard", "marisa_b, marisa_b_stage_2, $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa] Chen - MidBoss 1",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["marisa_a, marisa_a_stage_2, lunatic", "marisa_b, marisa_b_stage_2, lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa] Chen Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["marisa_a, marisa_a_stage_2, lunatic", "marisa_b, marisa_b_stage_2, lunatic"]
+                    },
+                    {
+                        "name": "[Marisa] Stage 2 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_2", "marisa_b, marisa_b_stage_2"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa] Stage 3",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 312,
+                        "y": 90,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa] Alice - Midboss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], $canEasy", "marisa_b, marisa_b_stage_3, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa] Alice Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], $canEasy", "marisa_b, marisa_b_stage_3, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa] Alice - Midboss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], $canNormal", "marisa_b, marisa_b_stage_3, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa] Alice Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], $canNormal", "marisa_b, marisa_b_stage_3, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa] Alice - Midboss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], $canHard", "marisa_b, marisa_b_stage_3, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa] Alice Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], $canHard", "marisa_b, marisa_b_stage_3, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa] Alice - Midboss 1",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], lunatic", "marisa_b, marisa_b_stage_3, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa] Alice Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], lunatic", "marisa_b, marisa_b_stage_3, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Marisa] Stage 3 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34]", "marisa_b, marisa_b_stage_3, [$canStage34]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa] Stage 4",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 312,
+                        "y": 114,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa] Lily White - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], $canEasy", "marisa_b, marisa_b_stage_4, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa] Prismriver Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], $canEasy", "marisa_b, marisa_b_stage_4, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa] Lily White - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], $canNormal", "marisa_b, marisa_b_stage_4, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa] Prismriver Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], $canNormal", "marisa_b, marisa_b_stage_4, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa] Lily White - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], $canHard", "marisa_b, marisa_b_stage_4, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa] Prismriver Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], $canHard", "marisa_b, marisa_b_stage_4, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa] Lily White - MidBoss",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], lunatic", "marisa_b, marisa_b_stage_4, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa] Prismriver Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], lunatic", "marisa_b, marisa_b_stage_4, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Marisa] Stage 4 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34]", "marisa_b, marisa_b_stage_4, [$canStage34]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa] Stage 5",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 312,
+                        "y": 138,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa] Youmu - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa] Youmu Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], $canEasy", "marisa_b, marisa_b_stage_5, [$canStage56], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa] Youmu - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], $canNormal", "marisa_b, marisa_b_stage_5, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa] Youmu Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], $canNormal", "marisa_b, marisa_b_stage_5, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa] Youmu - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], $canHard", "marisa_b, marisa_b_stage_5, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa] Youmu Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], $canHard", "marisa_b, marisa_b_stage_5, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa] Youmu - MidBoss 1",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], lunatic", "marisa_b, marisa_b_stage_5, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa] Youmu Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], lunatic", "marisa_b, marisa_b_stage_5, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Marisa] Stage 5 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56]", "marisa_b, marisa_b_stage_5, [$canStage56]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa] Stage 6",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 312,
+                        "y": 162,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Normal][Marisa] Youmu - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_6, [$canStage56], $canNormal", "marisa_b, marisa_b_stage_6, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa] Yuyuko Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_6, [$canStage56], $canNormal", "marisa_b, marisa_b_stage_6, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa] Youmu - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_6, [$canStage56], $canHard", "marisa_b, marisa_b_stage_6, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa] Yuyuko Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_6, [$canStage56], $canHard", "marisa_b, marisa_b_stage_6, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa] Youmu - MidBoss 2",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["marisa_a, marisa_a_stage_6, [$canStage56], lunatic", "marisa_b, marisa_b_stage_6, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa] Yuyuko Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["marisa_a, marisa_a_stage_6, [$canStage56], lunatic", "marisa_b, marisa_b_stage_6, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Marisa] Stage 6 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_stage_6, [$canStage56]", "marisa_b, marisa_b_stage_6, [$canStage56]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa] Stage Extra",
+                "visibility_rules": ["$extraStage"],
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 312,
+                        "y": 188,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Marisa] Chen - MidBoss 2",
+                        "access_rules": ["marisa_a, marisa_a_extra_stage, [$canExtra]", "marisa_b, marisa_b_extra_stage, [$canExtra]"]
+                    },
+                    {
+                        "name": "[Marisa] Ran Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_extra_stage, [$canExtra]", "marisa_b, marisa_b_extra_stage, [$canExtra]"]
+                    },
+                    {
+                        "name": "[Marisa] Stage Extra Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_extra_stage, [$canExtra]", "marisa_b, marisa_b_extra_stage, [$canExtra]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa] Stage Phantasm",
+                "visibility_rules": ["$phantasmStage"],
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 312,
+                        "y": 214,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Marisa] Ran - MidBoss",
+                        "access_rules": ["marisa_a, marisa_a_phantasm_stage, [$canPhantasm]", "marisa_b, marisa_b_phantasm_stage, [$canPhantasm]"]
+                    },
+                    {
+                        "name": "[Marisa] Yukari Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_phantasm_stage, [$canPhantasm]", "marisa_b, marisa_b_phantasm_stage, [$canPhantasm]"]
+                    },
+                    {
+                        "name": "[Marisa] Stage Phantasm Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, marisa_a_phantasm_stage, [$canPhantasm]", "marisa_b, marisa_b_phantasm_stage, [$canPhantasm]"]
+                    }
+                ]
+            },
+
+            {
+                "name": "[Sakuya] Stage 1",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 440,
+                        "y": 42,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Sakuya] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_1, $canEasy", "sakuya_b, sakuya_b_stage_1, $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Sakuya] Letty Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_1, $canEasy", "sakuya_b, sakuya_b_stage_1, $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Sakuya] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_1, $canNormal", "sakuya_b, sakuya_b_stage_1, $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Sakuya] Letty Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_1, $canNormal", "sakuya_b, sakuya_b_stage_1, $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Sakuya] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_1, $canHard", "sakuya_b, sakuya_b_stage_1, $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Sakuya] Letty Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_1, $canHard", "sakuya_b, sakuya_b_stage_1, $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Sakuya] Cirno Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_1, lunatic", "sakuya_b, sakuya_b_stage_1, lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Sakuya] Letty Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_1, lunatic", "sakuya_b, sakuya_b_stage_1, lunatic"]
+                    },
+                    {
+                        "name": "[Sakuya] Stage 1 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_1", "sakuya_b, sakuya_b_stage_1"]
+                    }
+                ]
+            },
+            {
+                "name": "[Sakuya] Stage 2",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 440,
+                        "y": 66,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Sakuya] Chen - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_2, $canEasy", "sakuya_b, sakuya_b_stage_2, $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Sakuya] Chen Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_2, $canEasy", "sakuya_b, sakuya_b_stage_2, $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Sakuya] Chen - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_2, $canNormal", "sakuya_b, sakuya_b_stage_2, $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Sakuya] Chen Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_2, $canNormal", "sakuya_b, sakuya_b_stage_2, $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Sakuya] Chen - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_2, $canHard", "sakuya_b, sakuya_b_stage_2, $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Sakuya] Chen Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_2, $canHard", "sakuya_b, sakuya_b_stage_2, $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Sakuya] Chen - MidBoss 1",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_2, lunatic", "sakuya_b, sakuya_b_stage_2, lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Sakuya] Chen Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_2, lunatic", "sakuya_b, sakuya_b_stage_2, lunatic"]
+                    },
+                    {
+                        "name": "[Sakuya] Stage 2 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_2", "sakuya_b, sakuya_b_stage_2"]
+                    }
+                ]
+            },
+            {
+                "name": "[Sakuya] Stage 3",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 440,
+                        "y": 90,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Sakuya] Alice - Midboss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_3, [$canStage34], $canEasy", "sakuya_b, sakuya_b_stage_3, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Sakuya] Alice Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_3, [$canStage34], $canEasy", "sakuya_b, sakuya_b_stage_3, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Sakuya] Alice - Midboss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_3, [$canStage34], $canNormal", "sakuya_b, sakuya_b_stage_3, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Sakuya] Alice Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_3, [$canStage34], $canNormal", "sakuya_b, sakuya_b_stage_3, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Sakuya] Alice - Midboss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_3, [$canStage34], $canHard", "sakuya_b, sakuya_b_stage_3, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Sakuya] Alice Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_3, [$canStage34], $canHard", "sakuya_b, sakuya_b_stage_3, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Sakuya] Alice - Midboss 1",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_3, [$canStage34], lunatic", "sakuya_b, sakuya_b_stage_3, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Sakuya] Alice Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_3, [$canStage34], lunatic", "sakuya_b, sakuya_b_stage_3, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Sakuya] Stage 3 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_3, [$canStage34]", "sakuya_b, sakuya_b_stage_3, [$canStage34]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Sakuya] Stage 4",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 440,
+                        "y": 114,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Sakuya] Lily White - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_4, [$canStage34], $canEasy", "sakuya_b, sakuya_b_stage_4, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Sakuya] Prismriver Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_4, [$canStage34], $canEasy", "sakuya_b, sakuya_b_stage_4, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Sakuya] Lily White - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_4, [$canStage34], $canNormal", "sakuya_b, sakuya_b_stage_4, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Sakuya] Prismriver Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_4, [$canStage34], $canNormal", "sakuya_b, sakuya_b_stage_4, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Sakuya] Lily White - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_4, [$canStage34], $canHard", "sakuya_b, sakuya_b_stage_4, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Sakuya] Prismriver Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_4, [$canStage34], $canHard", "sakuya_b, sakuya_b_stage_4, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Sakuya] Lily White - MidBoss",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_4, [$canStage34], lunatic", "sakuya_b, sakuya_b_stage_4, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Sakuya] Prismriver Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_4, [$canStage34], lunatic", "sakuya_b, sakuya_b_stage_4, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Sakuya] Stage 4 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_4, [$canStage34]", "sakuya_a, sakuya_a_stage_4, [$canStage34]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Sakuya] Stage 5",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 440,
+                        "y": 138,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Sakuya] Youmu - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_5, [$canStage56], $canEasy", "sakuya_b, sakuya_b_stage_5, [$canStage56], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Sakuya] Youmu Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_5, [$canStage56], $canEasy", "sakuya_b, sakuya_b_stage_5, [$canStage56], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Sakuya] Youmu - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_5, [$canStage56], $canNormal", "sakuya_b, sakuya_b_stage_5, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Sakuya] Youmu Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_5, [$canStage56], $canNormal", "sakuya_b, sakuya_b_stage_5, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Sakuya] Youmu - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_5, [$canStage56], $canHard", "sakuya_b, sakuya_b_stage_5, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Sakuya] Youmu Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_5, [$canStage56], $canHard", "sakuya_b, sakuya_b_stage_5, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Sakuya] Youmu - MidBoss 1",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_5, [$canStage56], lunatic", "sakuya_b, sakuya_b_stage_5, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Sakuya] Youmu Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_5, [$canStage56], lunatic", "sakuya_b, sakuya_b_stage_5, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Sakuya] Stage 5 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_5, [$canStage56]", "sakuya_b, sakuya_b_stage_5, [$canStage56]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Sakuya] Stage 6",
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 440,
+                        "y": 162,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Normal][Sakuya] Youmu - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_6, [$canStage56], $canNormal", "sakuya_b, sakuya_b_stage_6, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Sakuya] Yuyuko Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_6, [$canStage56], $canNormal", "sakuya_b, sakuya_b_stage_6, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Sakuya] Youmu - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_6, [$canStage56], $canHard", "sakuya_b, sakuya_b_stage_6, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Sakuya] Yuyuko Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_6, [$canStage56], $canHard", "sakuya_b, sakuya_b_stage_6, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Sakuya] Youmu - MidBoss 2",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_6, [$canStage56], lunatic", "sakuya_b, sakuya_b_stage_6, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Sakuya] Yuyuko Defeated",
+                        "visibility_rules": ["include_lunatic"],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_6, [$canStage56], lunatic", "sakuya_b, sakuya_b_stage_6, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Sakuya] Stage 6 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_stage_6, [$canStage56]", "sakuya_b, sakuya_b_stage_6, [$canStage56]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Sakuya] Stage Extra",
+                "visibility_rules": ["$extraStage"],
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 440,
+                        "y": 188,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Sakuya] Chen - MidBoss 2",
+                        "access_rules": ["sakuya_a, sakuya_a_extra_stage, [$canExtra]", "sakuya_b, sakuya_b_extra_stage, [$canExtra]"]
+                    },
+                    {
+                        "name": "[Sakuya] Ran Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_extra_stage, [$canExtra]", "sakuya_b, sakuya_b_extra_stage, [$canExtra]"]
+                    },
+                    {
+                        "name": "[Sakuya] Stage Extra Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_extra_stage, [$canExtra]", "sakuya_b, sakuya_b_extra_stage, [$canExtra]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Sakuya] Stage Phantasm",
+                "visibility_rules": ["$phantasmStage"],
+                "map_locations": [
+                    {
+                        "map": "pcb",
+                        "x": 440,
+                        "y": 214,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Sakuya] Ran - MidBoss",
+                        "access_rules": ["sakuya_a, sakuya_a_phantasm_stage, [$canPhantasm]", "sakuya_b, sakuya_b_phantasm_stage, [$canPhantasm]"]
+                    },
+                    {
+                        "name": "[Sakuya] Yukari Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_phantasm_stage, [$canPhantasm]", "sakuya_b, sakuya_b_phantasm_stage, [$canPhantasm]"]
+                    },
+                    {
+                        "name": "[Sakuya] Stage Phantasm Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["sakuya_a, sakuya_a_phantasm_stage, [$canPhantasm]", "sakuya_b, sakuya_b_phantasm_stage, [$canPhantasm]"]
+                    }
+                ]
+            }
+        ]
+    }
+]

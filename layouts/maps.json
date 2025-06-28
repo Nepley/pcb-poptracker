@@ -1,0 +1,16 @@
+{
+    "map_layout": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "pcb",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "pcb"
+                    ]
+                }
+            }
+        ]
+    }
+}

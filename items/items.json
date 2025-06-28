@@ -1,0 +1,637 @@
+[
+	{
+		"name": "[Reimu A] Stages",
+		"type": "progressive",
+		"codes": "reimu_a_stage_unlocked",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+				{
+					"img": "/images/items/Numbers/1.png",
+					"codes": "reimu_a_stage_1",
+					"inherit_codes": false,
+					"name": "[Reimu A] 1 Stage"
+				},
+				{
+					"img": "/images/items/Numbers/2.png",
+					"codes": "reimu_a_stage_2",
+					"inherit_codes": true,
+					"name": "[Reimu A] 2 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/3.png",
+					"codes": "reimu_a_stage_3",
+					"inherit_codes": true,
+					"name": "[Reimu A] 3 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/4.png",
+					"codes": "reimu_a_stage_4",
+					"inherit_codes": true,
+					"name": "[Reimu A] 4 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/5.png",
+					"codes": "reimu_a_stage_5",
+					"inherit_codes": true,
+					"name": "[Reimu A] 5 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/6.png",
+					"codes": "reimu_a_stage_6",
+					"inherit_codes": true,
+					"name": "[Reimu A] 6 Stages"
+				}
+		]
+	},
+	{
+		"name": "[Reimu B] Stages",
+		"type": "progressive",
+		"codes": "reimu_b_stage_unlocked",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+				{
+					"img": "/images/items/Numbers/1.png",
+					"codes": "reimu_b_stage_1",
+					"inherit_codes": false,
+					"name": "[Reimu B] 1 Stage"
+				},
+				{
+					"img": "/images/items/Numbers/2.png",
+					"codes": "reimu_b_stage_2",
+					"inherit_codes": true,
+					"name": "[Reimu B] 2 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/3.png",
+					"codes": "reimu_b_stage_3",
+					"inherit_codes": true,
+					"name": "[Reimu B] 3 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/4.png",
+					"codes": "reimu_b_stage_4",
+					"inherit_codes": true,
+					"name": "[Reimu B] 4 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/5.png",
+					"codes": "reimu_b_stage_5",
+					"inherit_codes": true,
+					"name": "[Reimu B] 5 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/6.png",
+					"codes": "reimu_b_stage_6",
+					"inherit_codes": true,
+					"name": "[Reimu B] 6 Stages"
+				}
+		]
+	},
+	{
+		"name": "[Marisa A] Stages",
+		"type": "progressive",
+		"codes": "marisa_a_stage_unlocked",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+				{
+					"img": "/images/items/Numbers/1.png",
+					"codes": "marisa_a_stage_1",
+					"inherit_codes": false,
+					"name": "[Marisa A] 1 Stage"
+				},
+				{
+					"img": "/images/items/Numbers/2.png",
+					"codes": "marisa_a_stage_2",
+					"inherit_codes": true,
+					"name": "[Marisa A] 2 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/3.png",
+					"codes": "marisa_a_stage_3",
+					"inherit_codes": true,
+					"name": "[Marisa A] 3 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/4.png",
+					"codes": "marisa_a_stage_4",
+					"inherit_codes": true,
+					"name": "[Marisa A] 4 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/5.png",
+					"codes": "marisa_a_stage_5",
+					"inherit_codes": true,
+					"name": "[Marisa A] 5 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/6.png",
+					"codes": "marisa_a_stage_6",
+					"inherit_codes": true,
+					"name": "[Marisa A] 6 Stages"
+				}
+		]
+	},
+	{
+		"name": "[Marisa B] Stages",
+		"type": "progressive",
+		"codes": "marisa_b_stage_unlocked",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+				{
+					"img": "/images/items/Numbers/1.png",
+					"codes": "marisa_b_stage_1",
+					"inherit_codes": false,
+					"name": "[Marisa B] 1 Stage"
+				},
+				{
+					"img": "/images/items/Numbers/2.png",
+					"codes": "marisa_b_stage_2",
+					"inherit_codes": true,
+					"name": "[Marisa B] 2 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/3.png",
+					"codes": "marisa_b_stage_3",
+					"inherit_codes": true,
+					"name": "[Marisa B] 3 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/4.png",
+					"codes": "marisa_b_stage_4",
+					"inherit_codes": true,
+					"name": "[Marisa B] 4 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/5.png",
+					"codes": "marisa_b_stage_5",
+					"inherit_codes": true,
+					"name": "[Marisa B] 5 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/6.png",
+					"codes": "marisa_b_stage_6",
+					"inherit_codes": true,
+					"name": "[Marisa B] 6 Stages"
+				}
+		]
+	},
+	{
+		"name": "[Sakuya A] Stages",
+		"type": "progressive",
+		"codes": "sakuya_a_stage_unlocked",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+				{
+					"img": "/images/items/Numbers/1.png",
+					"codes": "sakuya_a_stage_1",
+					"inherit_codes": false,
+					"name": "[Sakuya A] 1 Stage"
+				},
+				{
+					"img": "/images/items/Numbers/2.png",
+					"codes": "sakuya_a_stage_2",
+					"inherit_codes": true,
+					"name": "[Sakuya A] 2 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/3.png",
+					"codes": "sakuya_a_stage_3",
+					"inherit_codes": true,
+					"name": "[Sakuya A] 3 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/4.png",
+					"codes": "sakuya_a_stage_4",
+					"inherit_codes": true,
+					"name": "[Sakuya A] 4 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/5.png",
+					"codes": "sakuya_a_stage_5",
+					"inherit_codes": true,
+					"name": "[Sakuya A] 5 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/6.png",
+					"codes": "sakuya_a_stage_6",
+					"inherit_codes": true,
+					"name": "[Sakuya A] 6 Stages"
+				}
+		]
+	},
+	{
+		"name": "[Sakuya B] Stages",
+		"type": "progressive",
+		"codes": "sakuya_b_stage_unlocked",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+				{
+					"img": "/images/items/Numbers/1.png",
+					"codes": "sakuya_b_stage_1",
+					"inherit_codes": false,
+					"name": "[Sakuya B] 1 Stage"
+				},
+				{
+					"img": "/images/items/Numbers/2.png",
+					"codes": "sakuya_b_stage_2",
+					"inherit_codes": true,
+					"name": "[Sakuya B] 2 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/3.png",
+					"codes": "sakuya_b_stage_3",
+					"inherit_codes": true,
+					"name": "[Sakuya B] 3 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/4.png",
+					"codes": "sakuya_b_stage_4",
+					"inherit_codes": true,
+					"name": "[Sakuya B] 4 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/5.png",
+					"codes": "sakuya_b_stage_5",
+					"inherit_codes": true,
+					"name": "[Sakuya B] 5 Stages"
+				},
+				{
+					"img": "/images/items/Numbers/6.png",
+					"codes": "sakuya_b_stage_6",
+					"inherit_codes": true,
+					"name": "[Sakuya B] 6 Stages"
+				}
+		]
+	},
+	{
+		"name": "Difficulties",
+		"type": "progressive",
+		"codes": "lower_difficulty",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+				{
+					"img": "/images/items/Difficulties/lunatic.png",
+					"codes": "lunatic",
+					"inherit_codes": false,
+					"name": "Lunatic" 
+				},
+				{
+					"img": "/images/items/Difficulties/hard.png",
+					"codes": "hard",
+					"inherit_codes": false,
+					"name": "Hard" 
+				},
+				{
+					"img": "/images/items/Difficulties/normal.png",
+					"codes": "normal",
+					"inherit_codes": false,
+					"name": "Normal" 
+				},
+				{
+					"img": "/images/items/Difficulties/easy.png",
+					"codes": "easy",
+					"inherit_codes": false,
+					"name": "Easy" 
+				}
+		]
+	},
+	{
+		"name": "[Reimu A] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "reimu_a_extra_stage"
+	},
+	{
+		"name": "[Reimu B] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "reimu_b_extra_stage"
+	},
+	{
+		"name": "[Marisa A] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "marisa_a_extra_stage"
+	},
+	{
+		"name": "[Marisa B] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "marisa_b_extra_stage"
+	},
+	{
+		"name": "[Sakuya A] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "sakuya_a_extra_stage"
+	},
+	{
+		"name": "[Sakuya B] Extra Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/extra.png",
+		"codes": "sakuya_b_extra_stage"
+	},
+	{
+		"name": "[Reimu A] Phantasm Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/phantasm.png",
+		"codes": "reimu_a_phantasm_stage"
+	},
+	{
+		"name": "[Reimu B] Phantasm Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/phantasm.png",
+		"codes": "reimu_b_phantasm_stage"
+	},
+	{
+		"name": "[Marisa A] Phantasm Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/phantasm.png",
+		"codes": "marisa_a_phantasm_stage"
+	},
+	{
+		"name": "[Marisa B] Phantasm Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/phantasm.png",
+		"codes": "marisa_b_phantasm_stage"
+	},
+	{
+		"name": "[Sakuya A] Phantasm Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/phantasm.png",
+		"codes": "sakuya_a_phantasm_stage"
+	},
+	{
+		"name": "[Sakuya B] Phantasm Stage",
+		"type": "toggle",
+		"img": "/images/items/Difficulties/phantasm.png",
+		"codes": "sakuya_b_phantasm_stage"
+	},
+	{
+		"name": "Lives",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/life_up.png",
+		"codes": "lives"
+	},
+	{
+		"name": "Bombs",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/bomb_up.png",
+		"codes": "bombs"
+	},
+	{
+		"name": "Power Points",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 128,
+		"img": "/images/items/power_point.png",
+		"codes": "power_points"
+	},
+	{
+		"name": "Cherry Border",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 6,
+		"img": "/images/items/cherry.png",
+		"codes": "cherry_border"
+	},
+	{
+		"name": "Reimu A",
+		"type": "toggle",
+		"img": "/images/items/reimu_a.png",
+		"codes": "reimu_a"
+	},
+	{
+		"name": "Reimu B",
+		"type": "toggle",
+		"img": "/images/items/reimu_b.png",
+		"codes": "reimu_b"
+	},
+	{
+		"name": "Marisa A",
+		"type": "toggle",
+		"img": "/images/items/marisa_a.png",
+		"codes": "marisa_a"
+	},
+	{
+		"name": "Marisa B",
+		"type": "toggle",
+		"img": "/images/items/marisa_b.png",
+		"codes": "marisa_b"
+	},
+	{
+		"name": "Sakuya A",
+		"type": "toggle",
+		"img": "/images/items/sakuya_a.png",
+		"codes": "sakuya_a"
+	},
+	{
+		"name": "Sakuya B",
+		"type": "toggle",
+		"img": "/images/items/sakuya_b.png",
+		"codes": "sakuya_b"
+	},
+
+	{
+		"name": "Shot type checks",
+		"type": "toggle",
+		"img": "/images/items/shot_check.png",
+		"codes": "shot_type_check"
+	},
+	{
+		"name": "Difficulty checks",
+		"type": "toggle",
+		"img": "/images/items/difficulty_check.png",
+		"codes": "difficulty_check"
+	},
+	{
+		"name": "Extra stage included",
+		"type": "progressive",
+		"codes": "extra_stage_included",
+		"allow_disabled": true,
+		"initial_stage_idx": 0,
+		"stages": [
+				{
+					"img": "/images/items/progressive_extra.png",
+					"codes": "extra_progressive",
+					"inherit_codes": false,
+					"name": "Extra stage included - Progressive" 
+				},
+				{
+					"img": "/images/items/Difficulties/extra.png",
+					"codes": "extra_apart",
+					"inherit_codes": false,
+					"name": "Extra stage included - Apart" 
+				}
+		]
+	},
+	{
+		"name": "Phantasm stage included",
+		"type": "progressive",
+		"codes": "phantasm_stage_included",
+		"allow_disabled": true,
+		"initial_stage_idx": 0,
+		"stages": [
+				{
+					"img": "/images/items/progressive_phantasm.png",
+					"codes": "phantasm_progressive",
+					"inherit_codes": false,
+					"name": "Phantasm stage included - Progressive" 
+				},
+				{
+					"img": "/images/items/Difficulties/phantasm.png",
+					"codes": "phantasm_apart",
+					"inherit_codes": false,
+					"name": "Phantasm stage included - Apart" 
+				}
+		]
+	},
+	{
+		"name": "Lives for Stages 3 and 4",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/life_up.png",
+		"codes": "lives_3_4"
+	},
+	{
+		"name": "Bombs for Stages 3 and 4",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/bomb_up.png",
+		"codes": "bombs_3_4"
+	},
+	{
+		"name": "Difficulties for Stages 3 and 4",
+		"type": "progressive",
+		"codes": "lower_difficulty_3_4",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+				{
+					"img": "/images/items/Difficulties/lunatic.png",
+					"codes": "lunatic",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 3 and 4" 
+				},
+				{
+					"img": "/images/items/Difficulties/hard.png",
+					"codes": "hard",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 3 and 4" 
+				},
+				{
+					"img": "/images/items/Difficulties/normal.png",
+					"codes": "normal",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 3 and 4" 
+				},
+				{
+					"img": "/images/items/Difficulties/easy.png",
+					"codes": "easy",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 3 and 4" 
+				}
+		]
+	},
+	{
+		"name": "Lives for Stages 5 and 6",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/life_up.png",
+		"codes": "lives_5_6"
+	},
+	{
+		"name": "Bombs for Stages 5 and 6",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/bomb_up.png",
+		"codes": "bombs_5_6"
+	},
+	{
+		"name": "Difficulties for Stages 5 and 6",
+		"type": "progressive",
+		"codes": "lower_difficulty_5_6",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+				{
+					"img": "/images/items/Difficulties/lunatic.png",
+					"codes": "lunatic",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 5 and 6" 
+				},
+				{
+					"img": "/images/items/Difficulties/hard.png",
+					"codes": "hard",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 5 and 6" 
+				},
+				{
+					"img": "/images/items/Difficulties/normal.png",
+					"codes": "normal",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 5 and 6" 
+				},
+				{
+					"img": "/images/items/Difficulties/easy.png",
+					"codes": "easy",
+					"inherit_codes": false,
+					"name": "Difficulty for Stages 5 and 6" 
+				}
+		]
+	},
+	{
+		"name": "Lives for Stages Extra",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/life_up.png",
+		"codes": "lives_extra"
+	},
+	{
+		"name": "Bombs for Stages Extra",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/bomb_up.png",
+		"codes": "bombs_extra"
+	},
+	{
+		"name": "Lives for Stages Phantasm",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/life_up.png",
+		"codes": "lives_phantasm"
+	},
+	{
+		"name": "Bombs for Stages Phantasm",
+		"type": "consumable",
+		"min_quantity": 0,
+		"max_quantity": 8,
+		"img": "/images/items/bomb_up.png",
+		"codes": "bombs_phantasm"
+	},
+	{
+		"name": "Include Lunatic",
+		"type": "toggle",
+		"img": "/images/items/include_lunatic.png",
+		"codes": "include_lunatic",
+		"initial_active_state": true
+	}
+]
